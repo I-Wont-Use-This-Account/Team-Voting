@@ -5,7 +5,7 @@ export default class AppHeader extends React.Component{
   render(){
     return(
       <View style= {styles.textContainer}>
-        <Text style={styles.text}>Team Voting App</Text>
+        <Text style={styles.text}>Team Voting App - Jason's Update</Text>
       </View>
     );
   }
@@ -13,7 +13,7 @@ export default class AppHeader extends React.Component{
 
 const styles = StyleSheet.create({
   textContainer:{
-    backgroundColor: '#FFC300'
+    backgroundColor: '#0000FF'
   },
   text:{
     padding: 20,
